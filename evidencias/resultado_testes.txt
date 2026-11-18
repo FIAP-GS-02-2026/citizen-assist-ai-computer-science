@@ -1,0 +1,39 @@
+TABELA DE EQUIVALÊNCIA (16 combinações)
+
+ m | A B C D | Original | SdP | PdS | Simplif. | NAND | K-map | Programa || M orig | M canon | M simpl | M prog | OK
+--------------------------------------------------------------------------------------------------------------------
+ 0 | 0 0 0 0 |    0     |  0  |  0  |    0     |  0   |   0   |    0     ||   0    |    0    |    0    |   0    | OK
+ 1 | 0 0 0 1 |    0     |  0  |  0  |    0     |  0   |   0   |    0     ||   0    |    0    |    0    |   0    | OK
+ 2 | 0 0 1 0 |    0     |  0  |  0  |    0     |  0   |   0   |    0     ||   1    |    1    |    1    |   1    | OK
+ 3 | 0 0 1 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+ 4 | 0 1 0 0 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+ 5 | 0 1 0 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+ 6 | 0 1 1 0 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+ 7 | 0 1 1 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+ 8 | 1 0 0 0 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+ 9 | 1 0 0 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+10 | 1 0 1 0 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+11 | 1 0 1 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+12 | 1 1 0 0 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+13 | 1 1 0 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+14 | 1 1 1 0 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+15 | 1 1 1 1 |    1     |  1  |  1  |    1     |  1   |   1   |    1     ||   0    |    0    |    0    |   0    | OK
+
+test_aviso_canal_oficial (__main__.TestEntradasInvalidas.test_aviso_canal_oficial) ... ok
+test_bits_invalidos (__main__.TestEntradasInvalidas.test_bits_invalidos) ... ok
+test_bloqueio_de_dados_pessoais (__main__.TestEntradasInvalidas.test_bloqueio_de_dados_pessoais) ... ok
+test_fim_de_entrada_nao_quebra (__main__.TestEntradasInvalidas.test_fim_de_entrada_nao_quebra) ... ok
+test_opcao_inexistente_e_vazia (__main__.TestEntradasInvalidas.test_opcao_inexistente_e_vazia) ... ok
+test_resposta_sim_nao_invalida (__main__.TestEntradasInvalidas.test_resposta_sim_nao_invalida) ... ok
+test_16_combinacoes_saida_G (__main__.TestEquivalencia.test_16_combinacoes_saida_G) ... ok
+test_16_combinacoes_saida_M (__main__.TestEquivalencia.test_16_combinacoes_saida_M) ... ok
+test_entrada_fora_de_0_1 (__main__.TestEquivalencia.test_entrada_fora_de_0_1) ... ok
+test_mintermos_e_maxtermos_complementares (__main__.TestEquivalencia.test_mintermos_e_maxtermos_complementares) ... ok
+test_saidas_exclusivas (__main__.TestEquivalencia.test_saidas_exclusivas)
+Ninguém recebe gratuidade e meia ao mesmo tempo. ... ok
+test_toda_orientacao_tem_fonte_e_texto (__main__.TestEquivalencia.test_toda_orientacao_tem_fonte_e_texto) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
